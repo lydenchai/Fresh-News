@@ -1,21 +1,21 @@
 @font-face {
   font-family: "KmReg";
-  src: url("");
+  src: url("../asstes/fonts/KohSantepheap-Regular.ttf");
 }
 
 @font-face {
-  font-family: "KmMed";
-  src: url("");
+  font-family: "KmBol";
+  src: url("../asstes/fonts/KohSantepheap-Bold.ttf");
 }
 
 @font-face {
-  font-family: "KmSemiBold";
-  src: url("");
+  font-family: "KmBlack";
+  src: url("../asstes/fonts/KohSantepheap-Black.ttf");
 }
 
 @font-face {
-  font-family: "EngLight";
-  src: url("");
+  font-family: "KmLight";
+  src: url("../asstes/fonts/KohSantepheap-Light.ttf");
 }
 
 @font-face {
@@ -33,20 +33,6 @@
   src: url("");
 }
 
-@font-face {
-  font-family: "EngBold";
-  src: url("");
-}
-
-@font-face {
-  font-family: "LoraReg";
-  src: url("");
-}
-
-@font-face {
-  font-family: "LoraBold";
-  src: url("");
-}
 
 * {
   margin: 0;
