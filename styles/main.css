@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "KmReg";
+  src: url("");
+}
+
+@font-face {
+  font-family: "KmMed";
+  src: url("");
+}
+
+@font-face {
+  font-family: "KmSemiBold";
+  src: url("");
+}
+
+@font-face {
+  font-family: "EngLight";
+  src: url("");
+}
+
+@font-face {
+  font-family: "EngMedium";
+  src: url("");
+}
+
+@font-face {
+  font-family: "EngReg";
+  src: url("");
+}
+
+@font-face {
+  font-family: "EngSemiBold";
+  src: url("");
+}
+
+@font-face {
+  font-family: "EngBold";
+  src: url("");
+}
+
+@font-face {
+  font-family: "LoraReg";
+  src: url("");
+}
+
+@font-face {
+  font-family: "LoraBold";
+  src: url("");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "EngReg", "KmReg";
+}
+
+body {
+  background: #fff;
+}
