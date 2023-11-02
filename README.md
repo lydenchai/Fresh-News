@@ -6,5 +6,5 @@
 2. Navigate to the project directory: `cd Fresh-News`
 3. Open the `index.html` file in your web browser.
 
-## Or see the resutl here
+## Or see the result here
 - link: https://freshnewsasia.netlify.app/
