@@ -20,19 +20,23 @@
 
 @font-face {
   font-family: "EngMedium";
-  src: url("");
+  src: url("../asstes/fonts/Poppins-Medium.ttf");
 }
 
 @font-face {
   font-family: "EngReg";
-  src: url("");
+  src: url("../asstes/fonts/Poppins-Regular.ttf");
 }
 
 @font-face {
   font-family: "EngSemiBold";
-  src: url("");
+  src: url("../asstes/fonts/Poppins-Bold.ttf");
 }
 
+@font-face {
+  font-family: "EngSemiLight";
+  src: url("../asstes/fonts/Poppins-Light.ttf");
+}
 
 * {
   margin: 0;
