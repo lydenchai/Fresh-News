@@ -7,4 +7,4 @@
 3. Open the `index.html` file in your web browser.
 
 ## Or see the resutl here
-'https://freshnewsasia.netlify.app/'
+-link: https://freshnewsasia.netlify.app/
