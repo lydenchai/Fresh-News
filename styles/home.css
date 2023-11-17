@@ -118,7 +118,8 @@ input.search-query {
 
 
 .video-and-table {
-  width: 76.3% !important;
+  width: 100% !important;
+  margin-right: 8px;
   height: auto;
 }
 
@@ -129,7 +130,7 @@ input.search-query {
 }
 
 .ad-content {
-  width: 23%;
+  width: 23% !important;
   height: auto;
   text-align: center;
 }
@@ -232,7 +233,6 @@ table tr td:nth-child(2)>p {
   margin: 18px 0;
 }
 
-.art-adsBottom,
 .art-adsBottom {
   width: 100%;
   height: auto;
@@ -257,5 +257,6 @@ table tr td:nth-child(2)>p {
 }
 
 .art-closeLeft {
+  bottom: 90px;
   background-position: left bottom;
 }
