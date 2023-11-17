@@ -1,41 +1,46 @@
 @font-face {
   font-family: "KmReg";
-  src: url("../asstes/fonts/KohSantepheap-Regular.ttf");
+  src: url("../assets/fonts/Hanuman-Regular.ttf");
 }
 
 @font-face {
   font-family: "KmBol";
-  src: url("../asstes/fonts/KohSantepheap-Bold.ttf");
+  src: url("../assets/fonts/Hanuman-Bold.ttf");
 }
 
 @font-face {
   font-family: "KmBlack";
-  src: url("../asstes/fonts/KohSantepheap-Black.ttf");
+  src: url("../assets/fonts/Hanuman-Black.ttf");
 }
 
 @font-face {
   font-family: "KmLight";
-  src: url("../asstes/fonts/KohSantepheap-Light.ttf");
+  src: url("../assets/fonts/Hanuman-Light.ttf");
+}
+
+@font-face {
+  font-family: "KmThin";
+  src: url("../assets/fonts/Hanuman-Thin.ttf");
 }
 
 @font-face {
   font-family: "EngMedium";
-  src: url("../asstes/fonts/Poppins-Medium.ttf");
+  src: url("../assets/fonts/Poppins-Medium.ttf");
 }
 
 @font-face {
   font-family: "EngReg";
-  src: url("../asstes/fonts/Poppins-Regular.ttf");
+  src: url("../assets/fonts/Poppins-Regular.ttf");
 }
 
 @font-face {
   font-family: "EngSemiBold";
-  src: url("../asstes/fonts/Poppins-Bold.ttf");
+  src: url("../assets/fonts/Poppins-Bold.ttf");
 }
 
 @font-face {
   font-family: "EngSemiLight";
-  src: url("../asstes/fonts/Poppins-Light.ttf");
+  src: url("../assets/fonts/Poppins-Light.ttf");
 }
 
 * {
