@@ -99,35 +99,6 @@
 }
 
 
-.footer-left,
-.footer-right {
-  width: 50%;
-  color: #fff;
-}
-
-.footer-title {
-  font-weight: 700;
-  font-size: 1.25rem;
-  line-height: 35px;
-}
-
-.row>a {
-  color: #fff;
-  font-size: .75rem;
-  line-height: 25px;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.row>a:hover {
-  color: #fff;
-  text-decoration: underline;
-}
-
-.divider {
-  border: 0.5px solid #fff;
-}
-
 table {
   font-family: arial, sans-serif;
   width: 100% !important;
