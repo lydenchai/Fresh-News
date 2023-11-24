@@ -159,30 +159,32 @@ table tr td:nth-child(2)>p {
   margin: 18px 0;
 }
 
-.art-adsBottom {
-  width: 100%;
-  height: auto;
-  box-sizing: border-box;
-  display: block;
-  position: fixed;
-  left: 0;
-  right: 0;
-  z-index: 10001;
-  background: rgba(255, 255, 255, 0);
+@media screen and (max-width: 1350px) {
+  .content {
+    padding: 1.4% 2% 0 2%;
+  }
+
+  .left,
+  .right {
+    display: none;
+  }
+
+  .middle,
+  .middle-content {
+    width: 100% !important;
+  }
 }
 
-.art-closeLeft {
-  cursor: pointer;
-  position: absolute;
-  width: 80px;
-  height: 20px;
-  background-image: url("https://www.freshnewsasia.com//modules/mod_topstickybanner/img/btn_open_close.png");
-  background-repeat: no-repeat;
-  right: 5.7%;
-  bottom: 90px;
-}
+@media screen and (max-width: 1040px) {
+  .video-and-table {
+    margin-right: 0 !important;
+  }
 
-.art-closeLeft {
-  bottom: 90px;
-  background-position: left bottom;
+  div.ad-content {
+    display: none !important;
+  }
+
+  .logo-and-ad .ad {
+    display: none;
+  }
 }
