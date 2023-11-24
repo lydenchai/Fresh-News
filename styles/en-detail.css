@@ -1,0 +1,122 @@
+body {
+    background-color: #022059 !important;
+}
+.container {
+    background-color: #fff;
+    margin-top: 30px;
+    width: 980px !important;
+    border-radius: 7px;
+    margin-bottom: 50px;
+}
+.marquee-with-options-111{
+    overflow:hidden!important;
+    color:#fff;
+    font-family: sans-serif;
+    font-size:19px;
+    line-height:19px;
+    height:30px;
+    width:auto;
+    background:#022059!important;
+    border:  none ;
+    margin-bottom:0;
+    text-decoration:none;
+    font-weight:bold;
+    padding-top:5px;
+}
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+.header-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-container .pull-left  {
+    width: 70%;
+    display: flex;
+}
+.header-container .pull-right {
+    width: 30%;
+}
+.header-container .pull-right form {
+    display: flex;
+    justify-content: end;
+}
+.header-container .pull-left a {
+    font-size: 15px;
+    padding: 5px;
+}
+table , tbody, tr {
+    width: 100%;
+}
+.banner-ads {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.mod_search93 form input {
+    border: 1px solid rgb(179, 179, 179);
+    width: 80%;
+    border-radius: 15px;
+    outline: none;
+}
+::placeholder {
+    font-size: 12px;
+}
+.page-header {
+    color: #1e2699;
+    border-bottom: 1px solid rgb(182, 182, 182);
+}
+.header-titile {
+    font-size: 21px;
+}
+.marquee {
+    animation: marquee 10s linear infinite;
+  white-space: nowrap;
+  width: 100%;
+}
+@keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+}
+.muted {
+    margin-top: 10px;
+    color: #999;
+    line-height: 25px;
+}
+.row-fluid {
+    display: flex;
+    justify-content: space-between;
+}
+.hits {
+    line-height: 0;
+}
+#content {
+    width: 80%;
+}
+.item-icon {
+    width: 15px;
+    color: black;
+    margin-top: -5px;
+}
+.like-icon {
+    color: white;
+}
+.reaction-section {
+    width: 90%;
+    padding-bottom: 10px;
+}
+.reaction-section span {
+    background-color: #1877f2;
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-left: 10px;
+}
