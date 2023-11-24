@@ -159,3 +159,33 @@ small {
   bottom: 90px;
   background-position: left bottom;
 }
+
+@media screen and (max-width: 1350px) {
+  .content {
+    padding: 1.4% 2% 0 2%;
+  }
+
+  .left,
+  .right {
+    display: none;
+  }
+
+  .middle,
+  .middle-content {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .video-and-table {
+    margin-right: 0 !important;
+  }
+
+  div.ad-content {
+    display: none !important;
+  }
+
+  .logo-and-ad .ad {
+    display: none;
+  }
+}
