@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   fetch("components/footer.html")
     .then((response) => response.text())
     .then((html) => {
-      document.getElementById("component-container").innerHTML = html;
+      document.getElementById("custom-footer").innerHTML = html;
     })
     .catch((error) => console.error("Error fetching component:", error));
 });
