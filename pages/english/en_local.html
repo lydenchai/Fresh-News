@@ -34,12 +34,14 @@
     <!-- Modify by Vantheav -->
     <div class="content">
       <div id="alert-ad">
-        <img
-          class="alert-ad-image"
-          src="../../assets/images/ads_alert.png"
-          alt="Alert Ad Image"
-        />
-        <span class="close-button">Close</span>
+        <div class="img-btn">
+          <img
+            class="alert-ad-image"
+            src="../../assets/images/ads_alert.png"
+            alt="Alert Ad Image"
+          />
+          <span class="close-button">X</span>
+        </div>
       </div>
       <div class="left mt-1">
         <a href="#">
@@ -82,7 +84,7 @@
             </a>
             <a href="../../index.html">Home</a>
             <a class="active" href="/pages/english/en_local.html">Local</a>
-            <a href="#">World</a>
+            <a href="../khmer/kh-world.html">World</a>
             <a href="../khmer/kh_buss.html">Business</a>
             <a href="#">Knowledge</a>
             <a href="#">Analysis</a>
@@ -549,7 +551,7 @@
 
       setTimeout(() => {
         alertAd.style.display = "none";
-      }, 2000); // 5 seconds in milliseconds
+      }, 5000); // 5 seconds in milliseconds
     </script>
   </body>
 </html>

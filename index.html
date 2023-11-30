@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/styles/home.css" />
     <link rel="stylesheet" href="/pages/english/en_local.html" />
     <link rel="stylesheet" href="/styles/main.css" />
+    <link rel="stylesheet" href="/styles/ads_alter.css" />
     <script src="/assets/scripts/nav.js"></script>
     <link
       rel="stylesheet"
@@ -32,6 +33,16 @@
   </head>
   <body>
     <div class="content">
+      <div id="alert-ad">
+        <div class="img-btn">
+          <img
+            class="alert-ad-image"
+            src="../../assets/images/ads_alert.png"
+            alt="Alert Ad Image"
+          />
+          <span class="close-button">X</span>
+        </div>
+      </div>
       <div class="left mt-1">
         <a href="#">
           <img
@@ -418,6 +429,16 @@
           });
         });
       });
+      const alertAd = document.getElementById("alert-ad");
+      const closeButton = document.querySelector(".close-button");
+
+      closeButton.addEventListener("click", () => {
+        alertAd.style.display = "none";
+      });
+
+      setTimeout(() => {
+        alertAd.style.display = "none";
+      }, 5000); // 5 seconds in milliseconds
     </script>
   </body>
 </html>
