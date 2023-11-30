@@ -160,9 +160,6 @@ table tr td:nth-child(2)>p {
 }
 
 @media screen and (max-width: 1350px) {
-  .content {
-    padding: 1.4% 2% 0 2%;
-  }
 
   .left,
   .right {
