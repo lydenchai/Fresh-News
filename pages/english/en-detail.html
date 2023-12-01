@@ -3,10 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Detail</title>
+    <link
+      rel="shortcut icon"
+      href="../../assets/images/logo.png"
+      type="image/x-icon"
+    />
+    <title>FRESH NEWS</title>
     <link rel="stylesheet" href="../../styles/en-detail.css" />
     <link rel="stylesheet" href="../../styles/main.css" />
     <link rel="stylesheet" href="../../assets/scripts/nav.js" />
+    <link rel="stylesheet" href="../../styles/ads_alter.css" />
+    <script src="../../assets/scripts/nav.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -25,6 +32,16 @@
   </head>
   <body>
     <div class="content">
+      <div id="alert-ad">
+        <div class="img-btn">
+          <img
+            class="alert-ad-image"
+            src="../../assets/images/ads_alert.png"
+            alt="Alert Ad Image"
+          />
+          <span class="close-button">X</span>
+        </div>
+      </div>
       <div class="left mt-1">
         <a href="#">
           <img
@@ -66,8 +83,8 @@
             </a>
             <a href="../../index.html">Home</a>
             <a href="../english/en_local.html">Local</a>
-            <a href="#">World</a>
-            <a href="#">Business</a>
+            <a href="../khmer/kh-world.html">World</a>
+            <a href="../khmer/kh_buss.html">Business</a>
             <a href="#">Knowledge</a>
             <a href="#">Analysis</a>
             <a href="#">YouTube</a>
@@ -473,6 +490,18 @@
             transition: "all 0.5s ease",
           });
         });
+      });
+
+      $(function () {
+        const alertAd = $("#alert-ad");
+        const closeButton = $(".close-button");
+
+        closeButton.click(() => {
+          alertAd.hide();
+        });
+        setTimeout(() => {
+          alertAd.hide();
+        }, 5000);
       });
     </script>
   </body>

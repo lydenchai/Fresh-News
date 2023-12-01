@@ -57,7 +57,7 @@
 .marquee-content {
   display: inline-block;
   white-space: nowrap;
-  animation: marquee-scroll 160s linear infinite;
+  animation: marquee-scroll 180s linear infinite;
 }
 
 .marquee-content:hover {
@@ -74,16 +74,10 @@
   }
 }
 
-.video-and-table {
+.detail-content {
   width: 100% !important;
   margin-right: 8px;
   height: auto;
-}
-
-.for-video {
-  width: 100%;
-  height: 400px;
-  background: #000;
 }
 
 .ad-content {
@@ -148,17 +142,6 @@ table tr td:nth-child(2) {
   padding: 0 10px !important;
 }
 
-table tr td:nth-child(2)>p {
-  margin-bottom: 0 !important;
-  color: #0f1899 !important;
-  font-weight: bold;
-}
-
-.pagination {
-  width: 100% !important;
-  margin: 18px 0;
-}
-
 @media screen and (max-width: 1350px) {
 
   .left,
@@ -173,7 +156,7 @@ table tr td:nth-child(2)>p {
 }
 
 @media screen and (max-width: 1040px) {
-  .video-and-table {
+  .detail-content {
     margin-right: 0 !important;
   }
 

@@ -11,6 +11,7 @@
     <title>FRESH NEWS PLUS</title>
     <link rel="stylesheet" href="../../styles/main.css" />
     <link rel="stylesheet" href="../../styles/fresh-news-plus.css" />
+    <link rel="stylesheet" href="../../styles/ads_alter.css" />
     <script src="../../assets/scripts/nav.js"></script>
     <link
       rel="stylesheet"
@@ -30,6 +31,16 @@
   </head>
   <body>
     <div class="content">
+      <div id="alert-ad">
+        <div class="img-btn">
+          <img
+            class="alert-ad-image"
+            src="../../assets/images/ads_alert.png"
+            alt="Alert Ad Image"
+          />
+          <span class="close-button">X</span>
+        </div>
+      </div>
       <div class="left mt-1">
         <a href="#">
           <img
@@ -46,7 +57,6 @@
               class="active"
               href="../../index.html"
               style="
-                color: #ff0000;
                 font-size: 15px;
                 line-height: 170%;
                 font-weight: 700 !important;
@@ -58,8 +68,8 @@
             </a>
             <a href="#">Home</a>
             <a href="../english/en_local.html">Local</a>
-            <a href="#">World</a>
-            <a href="#">Business</a>
+            <a href="./kh-world.html">World</a>
+            <a href="./kh_buss.html">Business</a>
             <a href="#">Knowledge</a>
             <a href="#">Analysis</a>
             <a href="#">YouTube</a>
@@ -915,6 +925,18 @@
             transition: "all 0.5s ease",
           });
         });
+      });
+
+      $(function () {
+        const alertAd = $("#alert-ad");
+        const closeButton = $(".close-button");
+
+        closeButton.click(() => {
+          alertAd.hide();
+        });
+        setTimeout(() => {
+          alertAd.hide();
+        }, 5000);
       });
     </script>
   </body>
