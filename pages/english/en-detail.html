@@ -32,61 +32,18 @@
   </head>
   <body>
     <div class="content">
-      <div id="alert-ad">
-        <div class="img-btn">
-          <img
-            class="alert-ad-image"
-            src="../../assets/images/ads_alert.png"
-            alt="Alert Ad Image"
-          />
-          <span class="close-button">X</span>
-        </div>
-      </div>
-      <div class="left mt-1">
-        <a href="#">
-          <img
-            src="https://image.freshnewsasia.com/advertise/banner/evimnxom9g.gif"
-            alt=""
-            width="100%"
-          />
-        </a>
-        <a href="#">
-          <img
-            src="https://image.freshnewsasia.com/advertise/banner/gcnjhbce1p.gif"
-            alt=""
-            width="100%"
-          />
-        </a>
-        <a href="#">
-          <img
-            src="https://image.freshnewsasia.com/advertise/banner/1b8df7gsya.gif"
-            alt=""
-            width="100%"
-          />
-        </a>
-      </div>
+      <div class="left"></div>
       <div class="middle">
         <div class="middle-content">
           <div class="topnav" id="myTopnav">
-            <a
-              href="../khmer/fresh-news-plus.html"
-              style="
-                color: #ff0000;
-                font-size: 15px;
-                line-height: 170%;
-                font-weight: 700 !important;
-                margin-left: 0;
-                font-family: tahoma, arial, helvetica, sans-serif;
-              "
-            >
-              <strong>FRESH NEWS+</strong>
-            </a>
-            <a href="../../index.html">Home</a>
-            <a href="../english/en_local.html">Local</a>
+            <a class="m-0" href="./en-home.html">Home</a>
+            <a href="./en_local.html">Local</a>
             <a href="#">World</a>
             <a href="#">YouTube</a>
             <a href="#">Facebook</a>
-            <a href="../../index.html" class="color-red" style="color: #ff0000">Khmer</a>
+            <a href="../../index.html" class="color-red" style="color: #ff0000">
+              Khmer
+            </a>
             <a href="./en-about.html">About</a>
             <input
               type="text"
@@ -436,72 +393,7 @@
           </div>
         </footer>
       </div>
-      <div class="right mt-1">
-        <a href="#">
-          <img
-            src="https://image.freshnewsasia.com/advertise/banner/evimnxom9g.gif"
-            alt=""
-            width="100%"
-          />
-        </a>
-        <a href="#">
-          <img
-            src="https://image.freshnewsasia.com/advertise/banner/gcnjhbce1p.gif"
-            alt=""
-            width="100%"
-          />
-        </a>
-        <a href="#">
-          <img
-            src="https://image.freshnewsasia.com/advertise/banner/1b8df7gsya.gif"
-            alt=""
-            width="100%"
-          />
-        </a>
-      </div>
+      <div class="right"></div>
     </div>
-    <div class="art-adsBottom w-100 bottom-0">
-      <div class="close-ad position-absolute bottom-0" style="width: 88%">
-        <a href="#" class="w-100">
-          <img
-            src="https://freshnewsasia.com/images/safehome1290.jpg"
-            height="90"
-            class="w-100"
-          />
-        </a>
-      </div>
-      <div class="art-closeLeft position-absolute"></div>
-    </div>
-    <script>
-      $(function () {
-        let isOpen = false;
-        const $closeAd = $(".close-ad");
-        const $closeLeft = $(".art-closeLeft");
-
-        $(".art-closeLeft").click(() => {
-          isOpen = !isOpen;
-          $closeAd.animate({
-            height: "toggle",
-          });
-          $closeLeft.css({
-            "background-position": `left ${isOpen ? "top" : "bottom"}`,
-            bottom: isOpen ? "1px" : "90px",
-            transition: "all 0.5s ease",
-          });
-        });
-      });
-
-      $(function () {
-        const alertAd = $("#alert-ad");
-        const closeButton = $(".close-button");
-
-        closeButton.click(() => {
-          alertAd.hide();
-        });
-        setTimeout(() => {
-          alertAd.hide();
-        }, 5000);
-      });
-    </script>
   </body>
 </html>
