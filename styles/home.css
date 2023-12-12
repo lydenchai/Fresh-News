@@ -148,6 +148,14 @@ table tr td:nth-child(2) {
   padding: 0 10px !important;
 }
 
+table tr td:nth-child(3) {
+  font-size: 11px !important;
+  text-align: left;
+  width: 40px !important;
+  padding: 0 10px !important;
+  cursor: default !important;
+}
+
 table tr td:nth-child(2)>p {
   margin-bottom: 0 !important;
   color: #0f1899 !important;
